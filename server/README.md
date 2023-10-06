@@ -9,6 +9,12 @@ Esta API de comercio electrónico está diseñada para gestionar productos, carr
 - MYSQL
 - Autenticación con JWT (JSON Web Tokens)
 
+## Diagrama ER
+
+Base de datos MYSQL
+![data_project](https://github.com/CarlosLeonelBD/ProyectoMT/assets/81053948/61038826-a53f-4540-8e51-f2c40d743e1d)
+
+
 ## Instalación
 
 1. Clona este repositorio:
