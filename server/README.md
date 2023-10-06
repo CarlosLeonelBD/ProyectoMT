@@ -6,7 +6,7 @@ Esta API de comercio electrónico está diseñada para gestionar productos, carr
 
 - Node.js
 - Express.js
-- MongoDB (o tu base de datos preferida)
+- MYSQL
 - Autenticación con JWT (JSON Web Tokens)
 
 ## Instalación
