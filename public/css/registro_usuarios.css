@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.registro input{
+    margin: 10px;
+    width: 100%;
+    height: 18px;
+    max-width: 240px;
+    border-radius: 12px;
+    padding: 12px;
+    outline: none;
+    border: 1.5px solid lightgrey;
+    box-shadow: 0px 0px 20px -18px;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+ select{
+    margin: 10px;
+    width: 100%;
+    height: 44px;
+    max-width: 265px;
+    border-radius: 12px;
+    padding: 12px;
+    outline: none;
+    border: 1.5px solid lightgrey;
+    box-shadow: 0px 0px 20px -18px;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.Contenedor1{
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    height: 643px;
+    
+}
+.Lado1{
+    display: block;
+    z-index: 1;
+    width: 45%;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 100%);
+}
+.Fondo1{
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    height: 643px;
+    margin-left: 28%;
+    opacity: 100%;
+}
+.Lado2{
+    z-index: 3;
+    display:flex;
+    width: 55%;
+    background-color:white;
+}
+.Logo img{
+    position:static;
+    z-index: 1;
+    width: 520px;
+    margin-left: 30px;
+}
+.Lado1 h1{
+    z-index: 1;
+    margin-left: 180px;
+    margin-top: 40px;
+    color: white;
+    font-family: Segoe UI;
+    font-size:40px;
+    font-weight: 400;
+}
+.Contenido{
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding-left: 30px;
+    padding-right: 100px;
+    font-family: Segoe UI;
+    font-weight: 200;
+    font-size: smaller;
+}
+
+.login h1{
+    padding: 0;
+    text-align: center;
+    margin-top: 190px;
+    color: black;
+    font-family: Segoe UI;
+    font-size: 40px;
+    font-weight: 600;
+}
+.login{
+    display: block;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin-left: 80px;
+    font-family: segoe UI;
+}
+
+.label input{
+    margin: 10px;
+    width: 100%;
+  max-width: 320px;
+  height: 18px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  box-shadow: 0px 0px 20px -18px;
+}
+.label input:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+  }
+  
+  .label input:active {
+    transform: scale(0.95);
+  }
+  
+  .label input:focus {
+    border: 2px solid grey;
+  }
+button {
+    margin-top: 50px;
+    margin-left: 208px;
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 20px;
+ background: #0969ee;
+ font-family: segoe UI;
+ box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+ overflow: hidden;
+ border: none;
+ cursor:pointer;
+}
+
+button:after {
+ content: " ";
+ width: 0%;
+ height: 100%;
+ background: #49ff01;
+ position: absolute;
+ transition: all 0.4s ease-in-out;
+ right: 0;
+ cursor:pointer;
+}
+
+button:hover::after {
+ right: auto;
+ left: 0;
+ width: 100%;
+ cursor:pointer;
+}
+
+button span {
+ text-align: center;
+ text-decoration: none;
+ width: 100%;
+ padding: 4px 60px;
+ color: #fff;
+ font-size: 1.125em;
+ font-weight: 500;
+ font-size: 20px;
+ z-index: 20;
+ transition: all 0.3s ease-in-out;
+ cursor:pointer;
+}
+@keyframes scaleUp {
+ 0% {
+  transform: scale(1);
+ }
+
+ 50% {
+  transform: scale(0.95);
+ }
+
+ 100% {
+  transform: scale(1);
+ }
+}
